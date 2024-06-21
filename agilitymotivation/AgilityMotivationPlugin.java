@@ -44,7 +44,7 @@ public class AgilityMotivationPlugin extends Plugin {
         return configManager.getConfig(AgilityMotivationConfig.class);
     }
 
-    private ArrayList<String> sayings = new ArrayList<>(Arrays.asList("Bet you won't do another lap, pussy.", "Maybe if you burned calories at the rate you burned shrimp you'd have 99 already.", "It should be called Disgraceful when you're wearing it.", "You run like you're smuggling a gold helmet in your ass!", "Work off all those summer pies you fat loser.", "My granny can move faster than you.", "Only bitches high alch while training!", "Get off my roof you little bitch.", "Quit misclicking you fucking faggot.", "Haha this asshole is a bot, he hasn't missed a click!", "I've seen people put more effort into fighting sand crabs!", "You suck ass.", "You're a little pussy.", "My left arm is a lot stronger than my right!"));
+    private ArrayList<String> sayings = new ArrayList<>(Arrays.asList("It takes courage to grow up and become who you really are.","You have brains in your head. You have feet in your shoes. You can steer yourself any direction you choose. You're on your own. And you know what you know. And you are the guy who'll decide where to go.", "To bring about change, you must not be afraid to take the first step. We will fail when we fail to try.", "If you don't like the road you're walking, start paving another one.", "Hard things will happen to us. We will recover. We will learn from it. We will grow more resilient because of it."));
     public NPC bigredjapan = null;
     private int changeTextSeconds = 5;
     private LocalDateTime lastTextChange;
